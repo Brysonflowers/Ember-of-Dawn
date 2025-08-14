@@ -1,0 +1,174 @@
+.page-body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.page-header {
+    background-color: rgb(227, 118, 9);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.heading-primary {
+    font-size: 48px;
+    margin: 0;
+}
+
+.intro-paragraph {
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.section-header {
+    color: #220c08;
+    font-size: 28px;
+}
+
+.section-paragraph {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.activities-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.list-item {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.image-container {
+    text-align: center;
+    margin: 10px;
+}
+
+.featured-image {
+    width: 300px;
+    height: auto;
+    border: 2px solid #e60f08;
+    border-radius: 8px;
+}
+
+.image-caption {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #666;
+}
+
+.external-link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #e60f08;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.external-link:hover {
+    background-color: #e60f08;
+}
+
+.page-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #e60f08;
+    color: white;
+    margin-top: 40px;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+/* Media Queries for Mobile/Tablet Responsiveness */
+@media (max-width: 768px) {
+    .heading-primary {
+        font-size: 36px;
+    }
+
+    .intro-paragraph {
+        font-size: 18px;
+    }
+
+    .section-header {
+        font-size: 24px;
+    }
+
+    .section-paragraph {
+        font-size: 14px;
+    }
+
+    .featured-image {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .image-gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .external-link {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .page-header {
+        padding: 20px 10px;
+    }
+
+    .section {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .heading-primary {
+        font-size: 28px;
+    }
+
+    .intro-paragraph {
+        font-size: 16px;
+    }
+
+    .section-header {
+        font-size: 20px;
+    }
+
+    .list-item {
+        font-size: 14px;
+    }
+
+    .image-caption {
+        font-size: 12px;
+    }
+
+    .footer-text {
+        font-size: 12px;
+    }
+}
