@@ -138,6 +138,14 @@
     }
 }
 
+@media (max-width: 600px) {
+    .activities-list,
+    .list-item {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+}
+
 @media (max-width: 480px) {
     .page-header {
         padding: 20px 10px;
